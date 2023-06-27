@@ -35,6 +35,17 @@ h2{
     margin: 15px;
 }
 
+.info {
+    background-color: lightslategray;
+    color: white;
+    width: 100%;
+    text-align: left;
+    border: 5px solid black;
+    padding:10px;
+    margin: 15px;
+}
+
+
 .img{
     width:300x;
     height:360px;
