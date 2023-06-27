@@ -35,7 +35,7 @@ h2{
 }
 
 #personal {
-    text-align: right;
+    text-align: left;
     background-color: grey;
     color: #ffffff;
     border: 5px solid darkblue;
@@ -49,7 +49,16 @@ h2{
     border: 5px solid darkblue;
 }
 
-#horiseon-img{
-    width:250x;
-    height:300px;
+.img{
+    width:300x;
+    height:360px;
+    padding:10px;
+    border: 5px solid black;
+}
+
+#firstapp {
+    width:500x;
+    height:750px;
+    padding:10px;
+    border: 5px solid black;   
 }
