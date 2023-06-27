@@ -1,0 +1,55 @@
+body{
+    background-color: slategray;
+}
+
+header{
+text-align: center;
+}
+
+h2{
+    color:black;
+}
+
+#navbar {
+    background-color: grey;
+    color: #ffffff;
+    border: 5px solid darkblue;
+  }
+  
+  /* List items in navigation bar */
+ #navbar-links {
+    /* Sets display to inline */
+    display: inline;
+    list-style-type: none;
+    font-size: 25px;
+    margin: 15px;
+ }
+
+#aboutme {
+    background-color: lightslategray;
+    color: white;
+    width: 100%;
+    text-align: left;
+    border: 5px solid black;
+    padding:10px;
+}
+
+#personal {
+    text-align: right;
+    background-color: grey;
+    color: #ffffff;
+    border: 5px solid darkblue;
+
+}
+
+#professional {
+    text-align: left;
+    background-color: grey;
+    color: #ffffff;
+    border: 5px solid darkblue;
+}
+
+#horiseon-img{
+    width:250x;
+    height:300px;
+}

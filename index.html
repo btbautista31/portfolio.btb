@@ -2,45 +2,57 @@
 <html lang="en">
 
     <head>
-        <meta charset="UTF-8">
         <title>Bonne Bautista - Full Stack Developer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />  
     </head>
-
 
     <body>
         <!-- header with name with recent photo -->
-        <h1>Bonne T. Bautista - Full Stack Developer</h1>
-        <img src= "./assets/images/white-house.jpg" alt="Bonne Bautista at the White House"> 
+        <header>
+            <h1>Bonne T. Bautista - Full Stack Developer</h1>
+                    <nav>
+                        <ul id ="navbar">
+                            <li id="navbar-links"><a href="#about-me.div">About Me</a></li>
+                            <li id="navbar-links"><a href="#personal.section">Personal Links</a></li>
+                            <li id="navbar-links"><a href="#professional.section">Professional Links</a></li>
+                            <li id="navbar-links"><a href="#contact.section">Contact Me</a></li>
+                        </ul>
+                    </nav>          
+                    <br>
+            <img src= "./assets/images/white-house.jpg" alt="Bonne Bautista at the White House"> 
+        </header>
 
-        <!-- ABOUT ME header section -->
-        <div id="about-me.header">
+        <!-- ABOUT ME section -->
+        <section id="aboutme">
             <h2>About Me</h2>
             <p> I'm a simple guy aspiring to be a full fledged Full Stack Developer. 
             Please feel free to browse the following links for more info on my personal hobbies, social media, and professional career.</p>
-        </div>
+        </section>       
 
-        <!-- Personal Links -->
-        <section class="about-me.section">
-            <h3>Personal Links</h3>
-                <ul>
-                    <li> <a href="https://www.facebook.com/bonne.bautista/" target="_blank">Facebook</a></li>
-                    <li> <a href="https://www.instagram.com/bonne31/" target="_blank">Instagram</a></li>
-                </ul>
-        </section>
+        <!-- Personal Section -->
+        <section id="personal">
+                <h2>Personal Links</h2>
+                    <ul>
+                        <li> <a href="https://www.facebook.com/bonne.bautista/" target="_blank">Facebook</a></li>
+                        <li> <a href="https://www.instagram.com/bonne31/" target="_blank">Instagram</a></li>
+                    </ul>
+         </section>
 
-        <!-- Professional Links -->
-        <section class="about-me.section">
-            <h3>Professional Links</h3>
-                <ul>
-                    <li> <a href="https://www.linkedin.com/in/bonne-bautista-95548566/" target="_blank">LinkedIn</a></li>
-                    <li> <a href="https://walterreed.tricare.mil/News-Gallery/Articles/Article/3279802/its-final-last-mhs-genesis-staff-qa-ahead-of-spring-2023-mhs-genesis-transition" target="_blank">MHS Genesis at the Capital</a></li>
-                    <li> <a href="https://github.com/btbautista31/horiseon.btb" target="_blank">UC Berkley Bootcamp: Challenge 2 - Code Cleanup Repository</a></li>
-                    <li> <a href="https://github.com/btbautista31/prework-study-guide" target="_blank">UC Berkley Bootcamp: Prework - Intro To HTML Repository</a></li>
-                </ul>
+        <!-- Professional Section -->
+        <section id="professional">
+                <h2>Professional Links</h2>
+                        <a href="https://github.com/btbautista31/horiseon.btb"><img id="horiseon-img" src ="./assets/images/horiseon.jpg"></a>
+                        <a href="https://github.com/btbautista31/prework-study-guide" target="_blank">UC Berkley Bootcamp: Prework - Intro To HTML Repository</a>
+                        <a href="https://www.linkedin.com/in/bonne-bautista-95548566/" target="_blank">LinkedIn</a>
+                        <a href="https://walterreed.tricare.mil/News-Gallery/Articles/Article/3279802/its-final-last-mhs-genesis-staff-qa-ahead-of-spring-2023-mhs-genesis-transition" target="_blank">MHS Genesis at the Capital</a>
         </section>
+      
+
 
         <!-- CONTACT ME section -->
-        <section id="contact">
+        <section id="contact.section">
             <h3>Contact Me</h3>
                 <ul>
                     <li>Phone number: XXX-XXX-7008</li>
